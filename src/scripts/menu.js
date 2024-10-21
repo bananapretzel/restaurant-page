@@ -1,5 +1,10 @@
+import menuImg from "../assets/menu.jpg";
+
 const displayMenuContent = () => {
-    console.log("This is my menu function");
+  const menuImgElement = document.createElement("img");
+  const content  = document.getElementById("content");
+  menuImgElement.src = menuImg
+  content.appendChild(menuImgElement);
     
   };
   

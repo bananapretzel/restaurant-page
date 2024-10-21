@@ -1,10 +1,10 @@
-import { pageLoad } from "./page-load.js";
+
 import displayAboutContent from "./about.js";
 import displayMenuContent from "./menu.js";
 import displayHomeContent from "./home.js";
 import "../styles.css";
 
-pageLoad();
+displayHomeContent();
 
 const content  = document.getElementById("content");
 const aboutBtn = document.getElementById("about");
