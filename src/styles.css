@@ -51,7 +51,7 @@ h1 {
   font-family: Carattere;
   justify-content: center;
   margin-bottom: 50px;
-  font-size: 65px;
+  font-size: 75px;
 
 }
 
@@ -66,7 +66,16 @@ p {
   justify-content: center;
   align-items: center;
   line-height: 2;
+}
 
+b {
+  font-size: 30px;
+}
+pre {
+  
+  line-height: 2;
+  font-family: Roboto;
+  text-align: center;
 }
 
 .container-object {
